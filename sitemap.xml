@@ -12,22 +12,17 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://e-notifyer.nl/index.php</loc>
+  <loc>https://e-notifyer.nl/contact</loc>
   <lastmod>2024-12-26T09:04:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://e-notifyer.nl/contact.php</loc>
+  <loc>https://e-notifyer.nl/privacy-policy</loc>
   <lastmod>2024-12-26T09:04:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://e-notifyer.nl/privacy.php</loc>
-  <lastmod>2024-12-26T09:04:11+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://e-notifyer.nl/cookie.php</loc>
+  <loc>https://e-notifyer.nl/cookie-policy</loc>
   <lastmod>2024-12-26T09:04:11+00:00</lastmod>
   <priority>0.80</priority>
 </url>
