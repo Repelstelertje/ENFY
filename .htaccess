@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.domein\.nl$ [NC]
+RewriteRule ^(.*)$ https://domein.nl/$1 [L,R=301]
