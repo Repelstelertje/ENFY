@@ -1,8 +1,11 @@
 RewriteEngine On
 
-# Redirect www and force HTTPS
-RewriteCond %{HTTPS} off [OR]
+# Redirect www.e-notifyer.nl to the canonical HTTPS domain
 RewriteCond %{HTTP_HOST} ^www\.e-notifyer\.nl$ [NC]
+RewriteRule ^(.*)$ https://e-notifyer.nl/$1 [L,R=301]
+
+# Force HTTPS on the canonical domain
+RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://e-notifyer.nl/$1 [L,R=301]
 
 # Pretty URL rewrites for policy pages
