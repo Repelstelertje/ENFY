@@ -62,6 +62,7 @@
                                 <div class="form-group">
                                     <label class="my-2" for="message">Bericht</label>
                                     <textarea class="form-control" id="message" name="message" rows="5" placeholder="Schrijf je bericht" required></textarea>
+                                    <input type="text" name="website" id="website" style="display:none">
                                 </div>
                                 <button type="submit" class="btn btn-primary btn-xl rounded-pill mt-5">Verzenden</button>
                                 <div id="responseMessage" class="mt-3"></div> <!-- Dit is de plek voor het antwoord -->
