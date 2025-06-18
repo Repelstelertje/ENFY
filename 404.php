@@ -17,6 +17,16 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <meta property="og:title" content="404 - Pagina niet gevonden - E-Notifyer" />
+        <meta property="og:description" content="De pagina die je zoekt is niet gevonden." />
+        <meta property="og:url" content="https://e-notifyer.nl/404" />
+        <meta property="og:image" content="img/01.jpg" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="404 - Pagina niet gevonden - E-Notifyer" />
+        <meta name="twitter:description" content="De pagina die je zoekt is niet gevonden." />
+        <meta name="twitter:image" content="img/01.jpg" />
+        <meta name="twitter:url" content="https://e-notifyer.nl/404" />
     </head>
     <body id="page-top">
         <!-- Navigation-->

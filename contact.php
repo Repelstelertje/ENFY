@@ -18,6 +18,16 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link rel="canonical" href="https://e-notifyer.nl/contact" />
+        <meta property="og:title" content="Contact - E-Notifyer - Jouw slimme e-mail oplossing" />
+        <meta property="og:description" content="Neem contact op met het team van e-notifyer.nl voor vragen of opmerkingen. We helpen je graag verder en zorgen ervoor dat je snel een antwoord krijgt." />
+        <meta property="og:url" content="https://e-notifyer.nl/contact" />
+        <meta property="og:image" content="img/01.jpg" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact - E-Notifyer - Jouw slimme e-mail oplossing" />
+        <meta name="twitter:description" content="Neem contact op met het team van e-notifyer.nl voor vragen of opmerkingen. We helpen je graag verder en zorgen ervoor dat je snel een antwoord krijgt." />
+        <meta name="twitter:image" content="img/01.jpg" />
+        <meta name="twitter:url" content="https://e-notifyer.nl/contact" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
