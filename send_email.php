@@ -3,17 +3,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Haal de ingevulde gegevens uit het formulier
     $name = strip_tags(trim($_POST["name"]));
     $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+    $email = str_replace(["\r", "\n"], '', $email); // verwijder nieuwe regels voor veiligheid
     $message = trim($_POST["message"]);
+    $honeypot = isset($_POST["website"]) ? trim($_POST["website"]) : '';
 
     // Controleer of alle velden ingevuld zijn
-    if (empty($name) || empty($email) || empty($message) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    if (empty($name) || empty($email) || empty($message) || !filter_var($email, FILTER_VALIDATE_EMAIL) || !empty($honeypot)) {
         http_response_code(400);
         echo "Er was een probleem met je inzending. Zorg ervoor dat alle velden correct zijn ingevuld.";
         exit;
     }
 
-    // Ontvanger e-mailadres (vervang dit met jouw e-mailadres)
-    $recipient = "jouw-email@voorbeeld.nl"; // Vervang dit met je echte e-mailadres
+    // Laad configuratie
+    require_once __DIR__ . '/config.php';
+    // $recipient wordt ingeladen uit config.php
 
     // Onderwerp van de e-mail
     $subject = "Nieuw contactbericht van $name";
