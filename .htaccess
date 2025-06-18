@@ -5,6 +5,10 @@ RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\.e-notifyer\.nl$ [NC]
 RewriteRule ^(.*)$ https://e-notifyer.nl/$1 [L,R=301]
 
+# Pretty URL rewrites for policy pages
+RewriteRule ^privacy-policy/?$ privacy.php [L]
+RewriteRule ^cookie-policy/?$ cookie.php [L]
+
 # Optional: rewrite extensionless URLs
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.php -f
