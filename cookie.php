@@ -18,6 +18,16 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link rel="canonical" href="https://e-notifyer.nl/cookie-policy" />
+        <meta property="og:title" content="Cookie Policy - E-Notifyer - Jouw slimme e-mail oplossing" />
+        <meta property="og:description" content="Bekijk het cookiebeleid van e-notifyer.nl om te zien hoe we cookies gebruiken om je ervaring te verbeteren. We doen dit op een transparante manier." />
+        <meta property="og:url" content="https://e-notifyer.nl/cookie-policy" />
+        <meta property="og:image" content="img/01.jpg" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Cookie Policy - E-Notifyer - Jouw slimme e-mail oplossing" />
+        <meta name="twitter:description" content="Bekijk het cookiebeleid van e-notifyer.nl om te zien hoe we cookies gebruiken om je ervaring te verbeteren. We doen dit op een transparante manier." />
+        <meta name="twitter:image" content="img/01.jpg" />
+        <meta name="twitter:url" content="https://e-notifyer.nl/cookie-policy" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
