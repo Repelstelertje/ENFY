@@ -67,24 +67,4 @@
         <!-- Footer-->
         <!-- jQuery toevoegen -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                $('#contactForm').on('submit', function(event) {
-                    event.preventDefault(); // Voorkom dat het formulier normaal wordt verzonden
-                    
-                    $.ajax({
-                        type: 'POST',
-                        url: 'send_email.php',
-                        data: $(this).serialize(), // Verzend de gegevens van het formulier
-                        success: function(response) {
-                            $('#responseMessage').html('<div class="alert alert-success">' + response + '</div>');
-                            $('#contactForm')[0].reset(); // Reset het formulier na een succesvolle verzending
-                        },
-                        error: function() {
-                            $('#responseMessage').html('<div class="alert alert-danger">Er is iets misgegaan. Probeer het later opnieuw.</div>');
-                        }
-                    });
-                });
-            });
-        </script>
         <?php include 'footer.php'; ?>

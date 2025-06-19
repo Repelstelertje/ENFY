@@ -5,3 +5,23 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+
+// Contact form handling
+$(document).ready(function () {
+    $('#contactForm').on('submit', function (event) {
+        event.preventDefault();
+
+        $.ajax({
+            type: 'POST',
+            url: 'send_email.php',
+            data: $(this).serialize(),
+            success: function (response) {
+                $('#responseMessage').html('<div class="alert alert-success">' + response + '</div>');
+                $('#contactForm')[0].reset();
+            },
+            error: function () {
+                $('#responseMessage').html('<div class="alert alert-danger">Er is iets misgegaan. Probeer het later opnieuw.</div>');
+            }
+        });
+    });
+});
