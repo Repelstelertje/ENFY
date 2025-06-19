@@ -15,13 +15,17 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <!-- Custom theme styles -->
         <link href="css/styles.css" rel="stylesheet" />
         <link rel="canonical" href="https://e-notifyer.nl/cookie-policy" />
         <meta property="og:title" content="Cookie Policy - E-Notifyer - Jouw slimme e-mail oplossing" />
         <meta property="og:description" content="Bekijk het cookiebeleid van e-notifyer.nl om te zien hoe we cookies gebruiken om je ervaring te verbeteren. We doen dit op een transparante manier." />
         <meta property="og:url" content="https://e-notifyer.nl/cookie-policy" />
         <meta property="og:image" content="img/01.jpg" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="E-Notifyer" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Cookie Policy - E-Notifyer - Jouw slimme e-mail oplossing" />
@@ -101,7 +105,7 @@
                         <p>By email: info@e-notifyer.nl</p>
                     </li>
                     <li>
-                        <p>By visiting this page on our website: <a href="https://e-notifyer.nl/contact.php">contact</a></p>
+                        <p>By visiting this page on our website: <a href="https://e-notifyer.nl/contact">contact</a></p>
                     </li>
                     <li>
                         <p>By phone number: +31615408257</p>
