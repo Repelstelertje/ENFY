@@ -8,21 +8,18 @@
                     <p>Contact:</p>
                     <p>Email: info@e-notifyer.nl<br>
                     Phone: +31 615408257</p>
-                    <a href="contact.php">Direct contact</a>
-                    </p>
+                    <p><a href="contact.php">Direct contact</a></p>
                 </div>
                 <div class="col-6 col-lg-2 offset-lg-1 mb-3">
                     <p>Adres:</p>
                     <p>Louis Couperusplein 2<br>
                     2514HP Den Haag<br>
                     Nederland</p>
-                    </p>
                 </div>
                 <div class="col-6 col-lg-2 offset-lg-1 mb-3">
                     <p>Legal:</p>
-                    <p><a href="privacy.php">Privacy policy</p>
-                    <p><a href="cookie.php">Cookie policy</p>
-                    </p>
+                    <p><a href="privacy.php">Privacy policy</a></p>
+                    <p><a href="cookie.php">Cookie policy</a></p>
                 </div>
             </div>
         </div>
