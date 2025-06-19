@@ -4,7 +4,8 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.e-notifyer\.nl$ [NC]
 RewriteRule ^(.*)$ https://e-notifyer.nl/$1 [L,R=301]
 
-# Force HTTPS on the canonical domain
+# Force HTTPS only for the public domains
+RewriteCond %{HTTP_HOST} ^(www\.)?e-notifyer\.nl$ [NC]
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://e-notifyer.nl/$1 [L,R=301]
 
