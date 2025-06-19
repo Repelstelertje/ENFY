@@ -12,8 +12,8 @@
                 </div>
                 <div class="col-6 col-lg-2 offset-lg-1 mb-3">
                     <p>Adres:</p>
-                    <p>Louis Couperusplein 2<br>
-                    2514HP Den Haag<br>
+                    <p>Zeestraat 70<br>
+                    2518AC Den Haag<br>
                     Nederland</p>
                 </div>
                 <div class="col-6 col-lg-2 offset-lg-1 mb-3">
