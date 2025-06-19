@@ -22,7 +22,7 @@ Use PHP's built in web server from the project root:
 php -S localhost:8000
 ```
 
-Visit `http://localhost:8000/index.php` (or `contact.php` to test the form). Ensure your environment variable is set before starting the server so emails are sent to the right address.
+Visit `http://localhost:8000/index.php` (or `/contact` to test the form). Ensure your environment variable is set before starting the server so emails are sent to the right address.
 
 ## Deployment notes
 
